@@ -13,3 +13,15 @@ Sample Input:
 Sample Output :
 879
 '''
+d={}
+n=int(input())
+sum=0
+for i in range(0,n):
+    key=i+1
+    value=int(input())
+    d[key]=value
+    sum+=value
+print(sum)
+
+
+
