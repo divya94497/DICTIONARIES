@@ -12,3 +12,8 @@ Sample I/O:
 Sample o/p:
 {12: 34}
 '''
+a={}
+b=input("Enter the key: ")
+c=input("enter the value: ")
+a.update({b:c})
+print("final dict is: ",a)
